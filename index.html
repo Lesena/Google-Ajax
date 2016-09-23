@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+
+        <link href="https://necolas.github.io/normalize.css/4.1.1/normalize.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet"/>
+       <!-- <script src="js/scripts.js"></script>-->
+		<script src="js/scriptss.js"></script>
+        <script src="http://www.google.com/uds/api?file=uds.js&v=1.0&key= 
+                    AIzaSyB5bcUS0P73OIWbn00nKsfxHeramslZ4Rs" type="text/javascript"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+       <!--
+        
+
+        <script src="js/scripts.js"></script>
+        <link href="css/style.css" rel="stylesheet"/>--> 
+
+
+        <title>Using search API</title>
+    </head>
+    <body onload="onPageLoad()">
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        $(".search-form").submit(function() {
+            $.ajax({
+                url: 'google.com.ua',
+                success: function() {
+                    alert('Ok');
+                }
+            });
+        });
+    });
+
+    </script>    
+        <div class="wrapper">
+            
+
+            <header class="jhp">
+			  <div class="menu-google">
+                <div class="menu floating-box">
+                    <div class="floating-box">
+                        <a class="menu-element menu-mail" href="https://www.google.com/intl/ru/mail/help/about.html" target="_blank">Gmail</a>
+                    </div>
+                    <div class="floating-box">
+                        <a class="menu-element menu-images" href="#images">Images</a>
+                    </div>
+                </div>
+                <div class="floating-box">
+					<form action="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com.ua/#identifier" method="get">
+						<button class="menu-element login" type="submit" formtarget="_blank">Sing in</button>
+					</form>
+				</div>
+			</div>
+            </header>
+			<main>
+			    <div class="logo">
+					<div class="logo-subtext">Ukraine</div>
+				</div>
+			<!--Стандартная форма поиска form.search-form с двумя элементами управления — текстовым полем и кнопкой.-->
+            <form class="search-form">
+			   <div class="tsf">
+			     <div class="sfdiv">
+                  <input type="text" class="search-words _sw" title="search" name="pre" value="" />
+				  <input type="image" src="http://1.bp.blogspot.com/_hljKDuw-cxQ/SDEJPIeJG2I/AAAAAAAAGaM/N_Lu4sxLH_4/s00/lpDemoBuscador.gif"/>
+				  </div>
+                  <div class="jsb" style="padding-top:18px">
+				  <input type="submit" jsaction="sf.chk" name="btnK" aria-label="Поиск в Google" class="search__button" value="Поиск в Google">
+                  <input type="submit" jsaction="sf.lck" name="btnI" aria-label="Мне повезёт!" value="Мне повезёт!">
+				  </div>
+				</div>  
+            </form>
+<div class="language">
+					Google.com.ua offered in: <a class="ukraine" href="#ukraine">українська</a> <a class="russian" href="#russian">русский</a>
+				</div>
+<!--Блок div.google-logo с логотипом Google (логотип обязательно должен присутствовать на странице).
+ Здесь нужно обратить внимание, что логотип предоставляется в формате .png, так что нужно не забыть пустить в ход какой-нибудь PNGfix-->
+ <div id="lga" style="height:233px;margin-top:89px">
+ <div style="padding-top: 109px;">
+<div class="google-logo" style="background-size:272px 92px;height:92px;width:272px;margin-left:33%;">
+    <a href="http://google.ru"><img src="img/logosmall.png" alt="Google" /></a>
+</div>
+</div>
+</div>
+<!--Блок div.search-loading, который отображается в процессе выполнения поиска. Здесь можно использовать всякие «аяксовые» картинки-->
+<div class="search-loading">Поиск...</div>
+<!--Блок div.search-result для вывода результатов поиска. Он содержит в себе заголовок и контейнеры для вывода результатов и пэйджинга-->                
+<div class="search-result">
+    <h2>Результаты поиска: &laquo;<span class="query"></span>&raquo;</h2>
+    
+</div>  
+<!--Блок div.search-fail отображается, если поиск не вернул результатов.-->      
+<div class="search-fail">К сожалению, по вашему запросу ничего не найдено.</div>
+        
+		</main>
+		<footer>
+				<div class="footer-bar">
+					<div class="footer-bar-left">
+						<a class="menu-bar" href="http://www.google.com.ua/intl/en/ads/?fg=1" target="_blank">Advertising</a>
+						<a class="menu-bar" href="http://www.google.com.ua/services/?fg=1" target="_blank">Business</a>
+						<a class="menu-bar" href="http://www.google.com.ua/intl/en/about.html?fg=1" target="_blank">About</a>
+					</div>
+					<div class="footer-bar-right">
+						<a class="menu-bar" href="http://www.google.com.ua/intl/en/policies/privacy/?fg=1" target="_blank">Privacy</a>
+						<a class="menu-bar" href="http://www.google.com.ua/intl/en/policies/terms/?fg=1" target="_blank">Terms</a>
+						<a class="menu-bar" href="https://www.google.com.ua/preferences?hl=en" target="_blank">Settings</a>
+					</div>
+				</div>
+			</footer>
+			</div>
+    </body>
+</html>
