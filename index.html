@@ -9,6 +9,7 @@
         <link href="css/style.css" rel="stylesheet"/>
        <!-- <script src="js/scripts.js"></script>-->
 		<script src="js/scriptss.js"></script>
+		<script src="js/oop.js"></script>
         <script src="http://www.google.com/uds/api?file=uds.js&v=1.0&key= 
                     AIzaSyB5bcUS0P73OIWbn00nKsfxHeramslZ4Rs" type="text/javascript"> </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -61,7 +62,7 @@
 			    <div class="logo">
 					<div class="logo-subtext">Ukraine</div>
 				</div>
-			<!--Стандартная форма поиска form.search-form с двумя элементами управления — текстовым полем и кнопкой.-->
+			<!--Г‘ГІГ Г­Г¤Г Г°ГІГ­Г Гї ГґГ®Г°Г¬Г  ГЇГ®ГЁГ±ГЄГ  form.search-form Г± Г¤ГўГіГ¬Гї ГЅГ«ГҐГ¬ГҐГ­ГІГ Г¬ГЁ ГіГЇГ°Г ГўГ«ГҐГ­ГЁГї вЂ” ГІГҐГЄГ±ГІГ®ГўГ»Г¬ ГЇГ®Г«ГҐГ¬ ГЁ ГЄГ­Г®ГЇГЄГ®Г©.-->
             <form class="search-form">
 			   <div class="tsf">
 			     <div class="sfdiv">
@@ -69,16 +70,16 @@
 				  <input type="image" src="http://1.bp.blogspot.com/_hljKDuw-cxQ/SDEJPIeJG2I/AAAAAAAAGaM/N_Lu4sxLH_4/s00/lpDemoBuscador.gif"/>
 				  </div>
                   <div class="jsb" style="padding-top:18px">
-				  <input type="submit" jsaction="sf.chk" name="btnK" aria-label="Поиск в Google" class="search__button" value="Поиск в Google">
-                  <input type="submit" jsaction="sf.lck" name="btnI" aria-label="Мне повезёт!" value="Мне повезёт!">
+				  <input type="submit" jsaction="sf.chk" name="btnK" aria-label="ГЏГ®ГЁГ±ГЄ Гў Google" class="search__button" value="ГЏГ®ГЁГ±ГЄ Гў Google">
+                  <input type="submit" jsaction="sf.lck" name="btnI" aria-label="ГЊГ­ГҐ ГЇГ®ГўГҐГ§ВёГІ!" value="ГЊГ­ГҐ ГЇГ®ГўГҐГ§ВёГІ!">
 				  </div>
 				</div>  
             </form>
 <div class="language">
-					Google.com.ua offered in: <a class="ukraine" href="#ukraine">українська</a> <a class="russian" href="#russian">русский</a>
+					Google.com.ua offered in: <a class="ukraine" href="#ukraine">ГіГЄГ°Г ВїГ­Г±ГјГЄГ </a> <a class="russian" href="#russian">Г°ГіГ±Г±ГЄГЁГ©</a>
 				</div>
-<!--Блок div.google-logo с логотипом Google (логотип обязательно должен присутствовать на странице).
- Здесь нужно обратить внимание, что логотип предоставляется в формате .png, так что нужно не забыть пустить в ход какой-нибудь PNGfix-->
+<!--ГЃГ«Г®ГЄ div.google-logo Г± Г«Г®ГЈГ®ГІГЁГЇГ®Г¬ Google (Г«Г®ГЈГ®ГІГЁГЇ Г®ГЎГїГ§Г ГІГҐГ«ГјГ­Г® Г¤Г®Г«Г¦ГҐГ­ ГЇГ°ГЁГ±ГіГІГ±ГІГўГ®ГўГ ГІГј Г­Г  Г±ГІГ°Г Г­ГЁГ¶ГҐ).
+ Г‡Г¤ГҐГ±Гј Г­ГіГ¦Г­Г® Г®ГЎГ°Г ГІГЁГІГј ГўГ­ГЁГ¬Г Г­ГЁГҐ, Г·ГІГ® Г«Г®ГЈГ®ГІГЁГЇ ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГҐГІГ±Гї Гў ГґГ®Г°Г¬Г ГІГҐ .png, ГІГ ГЄ Г·ГІГ® Г­ГіГ¦Г­Г® Г­ГҐ Г§Г ГЎГ»ГІГј ГЇГіГ±ГІГЁГІГј Гў ГµГ®Г¤ ГЄГ ГЄГ®Г©-Г­ГЁГЎГіГ¤Гј PNGfix-->
  <div id="lga" style="height:233px;margin-top:89px">
  <div style="padding-top: 109px;">
 <div class="google-logo" style="background-size:272px 92px;height:92px;width:272px;margin-left:33%;">
@@ -86,15 +87,15 @@
 </div>
 </div>
 </div>
-<!--Блок div.search-loading, который отображается в процессе выполнения поиска. Здесь можно использовать всякие «аяксовые» картинки-->
-<div class="search-loading">Поиск...</div>
-<!--Блок div.search-result для вывода результатов поиска. Он содержит в себе заголовок и контейнеры для вывода результатов и пэйджинга-->                
+<!--ГЃГ«Г®ГЄ div.search-loading, ГЄГ®ГІГ®Г°Г»Г© Г®ГІГ®ГЎГ°Г Г¦Г ГҐГІГ±Гї Гў ГЇГ°Г®Г¶ГҐГ±Г±ГҐ ГўГ»ГЇГ®Г«Г­ГҐГ­ГЁГї ГЇГ®ГЁГ±ГЄГ . Г‡Г¤ГҐГ±Гј Г¬Г®Г¦Г­Г® ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГўГ±ГїГЄГЁГҐ В«Г ГїГЄГ±Г®ГўГ»ГҐВ» ГЄГ Г°ГІГЁГ­ГЄГЁ-->
+<div class="search-loading">ГЏГ®ГЁГ±ГЄ...</div>
+<!--ГЃГ«Г®ГЄ div.search-result Г¤Г«Гї ГўГ»ГўГ®Г¤Г  Г°ГҐГ§ГіГ«ГјГІГ ГІГ®Гў ГЇГ®ГЁГ±ГЄГ . ГЋГ­ Г±Г®Г¤ГҐГ°Г¦ГЁГІ Гў Г±ГҐГЎГҐ Г§Г ГЈГ®Г«Г®ГўГ®ГЄ ГЁ ГЄГ®Г­ГІГҐГ©Г­ГҐГ°Г» Г¤Г«Гї ГўГ»ГўГ®Г¤Г  Г°ГҐГ§ГіГ«ГјГІГ ГІГ®Гў ГЁ ГЇГЅГ©Г¤Г¦ГЁГ­ГЈГ -->                
 <div class="search-result">
-    <h2>Результаты поиска: &laquo;<span class="query"></span>&raquo;</h2>
+    <h2>ГђГҐГ§ГіГ«ГјГІГ ГІГ» ГЇГ®ГЁГ±ГЄГ : &laquo;<span class="query"></span>&raquo;</h2>
     
 </div>  
-<!--Блок div.search-fail отображается, если поиск не вернул результатов.-->      
-<div class="search-fail">К сожалению, по вашему запросу ничего не найдено.</div>
+<!--ГЃГ«Г®ГЄ div.search-fail Г®ГІГ®ГЎГ°Г Г¦Г ГҐГІГ±Гї, ГҐГ±Г«ГЁ ГЇГ®ГЁГ±ГЄ Г­ГҐ ГўГҐГ°Г­ГіГ« Г°ГҐГ§ГіГ«ГјГІГ ГІГ®Гў.-->      
+<div class="search-fail">ГЉ Г±Г®Г¦Г Г«ГҐГ­ГЁГѕ, ГЇГ® ГўГ ГёГҐГ¬Гі Г§Г ГЇГ°Г®Г±Гі Г­ГЁГ·ГҐГЈГ® Г­ГҐ Г­Г Г©Г¤ГҐГ­Г®.</div>
         
 		</main>
 		<footer>
