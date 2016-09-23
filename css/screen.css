@@ -1,0 +1,31 @@
+/* line 1, ../sass/screen.scss */
+.search-result {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 680px) {
+  /* line 1, ..//screen.scss */
+  .search-result {
+    width: 100% !important;
+  }
+  /* line 10, ../sass/screen.scss */
+  .search-loading .image {
+    width: calc(100% - 2em) !important;
+    height: 150px;
+    background-position: center !important;
+    background-size: cover !important;
+  }
+}
+/* line 17, ../sass/screen.scss */
+.search-fail {
+  font-size: 24px;
+}
+/* line 20, ../sass/screen.scss */
+.search-loading .image {
+  position: relative;
+  margin: 0.5em;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
