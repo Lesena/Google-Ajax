@@ -2,7 +2,7 @@
     'use strict'
 
 var server = 'google.com';
-    var key = ' AIzaSyB5bcUS0P73OIWbn00nKsfxHeramslZ4Rs';
+    var key = ' d591b44bcfb8f776c8d721fa9905867dbf4be79c';
     var ts = 1710680601;
 
   //var poll = function() {
