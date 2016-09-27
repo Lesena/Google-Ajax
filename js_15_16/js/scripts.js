@@ -44,7 +44,7 @@ $(function () {
     function update() {
 
         var parameters = {
-            token: 'dc2e336c-0244-4317-be31-3b93bd72fc3c',
+            token: 'd591b44bcfb8f776c8d721fa9905867dbf4be79c',
             format: 'json',
             language: 'english',
             ts: ts,
