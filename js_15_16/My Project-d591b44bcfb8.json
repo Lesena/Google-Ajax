@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "deft-epigram-144019",
+  "private_key_id": "d591b44bcfb8f776c8d721fa9905867dbf4be79c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDTufSkqV0SSnri\n/VM2UIrlII2xwru4nhZIVTXk8+eL+CeyGZbXZKE6tYa6cRJIrCdcdrZ5jhdhpm09\nr4ndR/PAw0HH1P/5+WIVcOKHCnPJy4yxp7Mc/PNpFppoEEUSviXV9L4FKoUQ7t4A\n9uA8tcZuqFSOdqQNhfRPrg0tTHg1KMG3MG6xYDf0Cc7g278LLSlfSDFxiHtUdd2Q\nLTLaVLErnQdeN1VNPLikku2BADy8ByEqihx5npVsYVg8fdji4QtRIhx2WpLPukAc\nOMCG04fwktvYwpDAWcVnEBlxQ7kHpNK1oXl5CFf/DERDAxim9CpdwNh4ASPEQBvM\np4fmP5jhAgMBAAECggEBAKWjWhAj64sut3qzYpEga7kbQZ7q0L969cW63AH1CpWH\nG08LE+YIdNYgQ3nCkeJGxDhjKxhnoEUl1Vqn5Lw32StZ1jGGooemoSRS/vVUqQca\n9kPaBZdNEQSKyVtWNyOVnLYI1UvnWtjHdujcOstkDgxuJlCZ4ngt7tcTPH3O0FAM\n2Gl+Jymey+9BP5NZRNtgxmIpS0gVdMplyUZ8hz3CfMkPs2HgqvoMQT7FteUOsev0\n+M426z8tdSTKJ39U01IaB+1pu407x9rqlNhGee3UoIi0dOcyS4nwjGjgIS7ALYNx\nlkz6AtlvucglEj80YHy6/mDVVToVjzt79oiP5U+hkAECgYEA+dQ5q1Vcg2N6A6wm\nNLDf07LBSzXG7qrzciBxgA3+nChVho1Ds8G7kP63H7qytApzUnpJR3xHGKgdZdcP\nL2VoRQBAnh4mM56F+nM6Ed8M/QlYrXE3hsWHDVna+2SFxJfW0Zjs9MDHn94yScNt\npWc/1ObTB3bLASkqTEMUuustrmECgYEA2PTKl1JWjXvPPyMb/MLHb8DKW8xqsMcd\nkjdgmJuqRIJbDIJ11MpQ9dJkXv/YWgAKAniDDYfduseIzhBttIPkICtLboqob3nk\nJj/ZW6TaEZW12gsOLa8grdk/MXBAkUBM0dweP2ia+l37gUuJsCONEp+E5Yi/5H8o\nb02f2m3w+oECgYEA+ZPRNN+m9z8mgoq09EiKolNelMMZhA7V+3p7yMCyTdBheHSh\nYO+2cKh1ysXZhtE12fx+PmLiJ7iy/a0151R4MQ6KfyuBYGoKUGRSa84XjKWMqGCF\nZybnvye4AxKuK/LAUU1j0zLPel8gf94zKF0YQJmD0l4TeYplTiBpkj4luaECgYEA\nt15WaIU4EEbniEaFXiHGbIa2wdXJCvaP4MgbRYCz7Ul76NvO+XWx7cLQAJce5hqI\nW0Q+B86gsj/5Oaka/+pFgob1L03URLvx//4RGOsBQMGXPN4BMs2EwksOpRtqBxog\nk3MGwbMI4blTXBlbG1tA3c+jhFkLTvXGWCR0iipH9YECgYAhZemGuNxByBBW5Oii\nKlz0gZIOC0bzS8UCljMNRVUXqgDnsBrXKSIAMEW2aCYsBtfN0h6HjwZkKaEzMbTR\nSoxH7Y/QY1yERGG442OqMJAC56iJx1i6MR9GsB0lcpypOqriKuNynHRRxbmGbj88\nh7Xoe+tSLrhZ9L1WprWNjKLaOw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "deft-epigram-144019@appspot.gserviceaccount.com",
+  "client_id": "109572354702138003789",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deft-epigram-144019%40appspot.gserviceaccount.com"
+}
